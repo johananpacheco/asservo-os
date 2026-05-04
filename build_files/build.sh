@@ -12,6 +12,8 @@ set -ouex pipefail
 # this installs a package from fedora repos
 dnf5 install -y tmux 
 
+dnf5 install --nogpgcheck --repofrompath 'terra,https://repos.fyralabs.com/terra$releasever' terra-tmp-release
+dnf5 install noctalia-shell
 dnf5 install -y mangowm
 
 # Use a COPR Example:
