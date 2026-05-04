@@ -13,9 +13,9 @@ set -ouex pipefail
 dnf5 install -y tmux neovim
 #dnf5 -y --enable-repo=terra install noctalia-shell
 
-dnf5 -y corp enable lionheartp/Hyprland
+dnf5 -y copr enable lionheartp/Hyprland
 dnf5 -y install noctalia-hyprland-meta
-dnf5 -y corp disable lionheartp/Hyprland
+dnf5 -y copr disable lionheartp/Hyprland
 
 # Use a COPR Example:
 #
