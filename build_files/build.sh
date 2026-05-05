@@ -14,6 +14,8 @@ dnf5 -y copr enable yalter/niri
 dnf5 -y install niri
 dnf5 -y copr disable yalter/niri
 dnf5 -y --enable-repo=terra install noctalia-shell
+dnf5 -y --enable-repo=terra install ghostty
+dnf5 -y install fish
 
 
 # Use a COPR Example:
