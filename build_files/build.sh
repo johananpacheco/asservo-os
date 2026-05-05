@@ -16,6 +16,10 @@ dnf5 -y copr disable yalter/niri
 dnf5 -y --enable-repo=terra install noctalia-shell
 dnf5 -y --enable-repo=terra install ghostty
 
+dnf5 -y copr enable faugus/faugus-launcher
+dnf5 -y install faugus-launcher
+dnf5 -y copr disable faugus/faugus-launcher
+
 # Use a COPR Example:
 #
 # dnf5 -y copr enable ublue-os/staging
