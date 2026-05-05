@@ -11,7 +11,6 @@ set -ouex pipefail
 
 # this installs a package from fedora repos
 
-dnf5 -y install appimagelauncher
 dnf5 -y copr enable yalter/niri
 dnf5 -y install niri
 dnf5 -y copr disable yalter/niri
