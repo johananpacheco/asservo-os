@@ -26,13 +26,8 @@ dnf5 -y copr disable faugus/faugus-launcher
 dnf5 -y copr enable jackgreiner/lug-helper
 dnf5 -y install lug-helper
 dnf5 -y copr enable jackgreiner/lug-helper
-
-# Use a COPR Example:
-#
-# dnf5 -y copr enable ublue-os/staging
-# dnf5 -y install package
-# Disable COPRs so they don't end up enabled on the final image:
-# dnf5 -y copr disable ublue-os/staging
+# Minecraft
+dnf5 -y install openal-soft
 
 #### Example for enabling a System Unit File
 
