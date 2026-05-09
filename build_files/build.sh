@@ -27,7 +27,7 @@ dnf5 -y copr enable jackgreiner/lug-helper
 dnf5 -y install lug-helper
 dnf5 -y copr enable jackgreiner/lug-helper
 # Minecraft
-dnf5 -y install openal-soft
+#dnf5 -y install openal-soft
 
 #### Example for enabling a System Unit File
 
